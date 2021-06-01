@@ -1,14 +1,14 @@
 .espacio{
     min-height: calc(100vh - 200px );
 }
-/*.marginF{
-    margin-left: 10px;
-    text-align: center;
+.wrapper {
+    width: 90%;
+    max-width:1000px;
+    margin:auto;
+    overflow: hidden;
 }
-.marginp{
-    margin-left:;
+.tamaño{
+    width: 150px;
+    height: 200px;
+    padding-right: 200px;
 }
-.colorHader{
-    background-color: #00a790;
-}
-*/
