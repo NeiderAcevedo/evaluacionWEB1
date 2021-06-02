@@ -69,7 +69,7 @@ function pintarDatos (datosFiltrados){
         tarjeta.classList.add("h-100");
         //PINTAR UN IMG CON LA CLASE CARD-IMG-TOP
         let imagen=document.createElement("img");
-        let audio=document.setAttribute("Audio, controls");
+        //let audio=document.setAttribute("Audio, controls");
         imagen.classList.add("card-img-top");
         imagen.src=pista.imagen;
 
