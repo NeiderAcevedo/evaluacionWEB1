@@ -69,13 +69,18 @@ function pintarDatos (datosFiltrados){
         tarjeta.classList.add("h-100");
         //PINTAR UN IMG CON LA CLASE CARD-IMG-TOP
         let imagen=document.createElement("img");
+        let audio=document.createElement("audio");
         //let audio=document.setAttribute("Audio, controls");
         imagen.classList.add("card-img-top");
         imagen.src=pista.imagen;
+        audio.setAttribute("controls","controls");
+        audio.classList.add("w-100");
+        audio.src=pista.audio;
 
         //--------------------------//
         //NECESITO INDICAR QUE LA FOTO VA DENTRO DE LA TARJETA
         tarjeta.appendChild(imagen);
+        tarjeta.appendChild(audio);
         // LA TARJETA VA DENTRO DEL CONTENEDOR COLUMNA
         contenedorColumna.appendChild(tarjeta);
         //NECESITO INDICAR QUE QUE EL CONTENEDOR COLUMNA VA DENTRO DEL CONTENEDOR PADRE

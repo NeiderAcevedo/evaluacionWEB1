@@ -16,7 +16,7 @@ body{
 }
  header{
      width: 100%;
-     height: 100%;
+     height: 50%;
      background-image: url('../evaluacionWEB1/recursos/fondo_banner.jpg') ;
      background-size: 100%;
      
@@ -68,6 +68,7 @@ header nav a:hover{
 } 
 
 
+
 .wrapper{
     width: 90%;
     max-width:1000px;
@@ -111,3 +112,8 @@ body.sticky-header header h1 {
     margin: 200px;
 }
 
+.espacio{
+    margin-top: 100px;
+    text-align: center;
+
+}
